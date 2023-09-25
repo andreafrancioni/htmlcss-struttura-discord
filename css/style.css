@@ -15,7 +15,7 @@ body{
 /* Inizio CSS Header */
 
 header{
-    background-color: aquamarine;
+    background-color: #ADD8E6;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -29,7 +29,8 @@ section.top{
     height: 40px;
     width: 80%;
     margin: 10px auto;
-    background-color: rgb(192, 172, 60);
+    background-color: #DAA520;
+    border: 1px dashed black;
     
 }
 
@@ -54,20 +55,127 @@ section.top{
 }
 
 .bot{
-    height: 300px;
+    height: 200px;
     background-color: blue;
     display: flex;
     align-items: center;
 }
 
 .header-content{
-    height: 230px;
+    height: 150px;
     width: 65%;
-    margin: 10px auto;
-    background-color: rgb(192, 60, 170);
+    margin: 0px auto;
+    background-color: #EE82EE;
+    border: 1px dashed black;
 }
 
 /* Fine CSS Header */
 
 /* Inizio CSS Main */
 
+main{
+    background-color: #222222;
+}
+
+.flex-container-row{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    margin: 0 auto;
+}
+
+.blue{
+    height: 230px;
+    width: 60%;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.pink{
+    height: 230px;
+    width: 40%;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+.bg-dark{
+    background-color: #D3D3D3;
+}
+
+.bg-white{
+    background-color: white;
+}
+.flex-container-row-rev{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 80%;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    margin: 0 auto;
+}
+
+.box{
+    height: 400px;
+    background-color: #D3D3D3;
+    display: flex;
+    align-items: center;
+}
+
+.green{
+    height: 350px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #228B22;
+    border: 1px dashed black;
+}
+
+.flex-container-column{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    height: 200px;
+    width: 60%;
+    margin: 0px auto;
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+
+.acqua{
+    height: 200px;
+    width: 40%;
+    margin: 0px auto;
+    background-color: #20B2AA;
+    border: 1px dashed black;
+}
+
+/* Fine CSS Main */
+
+/* Inizio CSS Footer */
+
+footer{
+    border-top: solid white 2px;
+    padding-top: 10px;
+}
+
+section.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #7FFFD4;
+    border: 1px dashed black;
+    
+}
+
+/* Fine CSS Footer */
